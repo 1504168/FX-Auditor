@@ -1,0 +1,1 @@
+dminus1 ='D:\Downloads\[File Optimization V4.xlsb]1min'!$C$2:INDEX('D:\Downloads\[File Optimization V4.xlsb]1min'!$C$2:$C$1048576, 'D:\Downloads\[File Optimization V4.xlsb]1min'!$BN$2)

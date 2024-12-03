@@ -1,0 +1,1 @@
+RTAToC =MID(CELL("filename",ToC!$A$1),FIND("]",CELL("filename",ToC!$A$1))+1,LEN(CELL("filename",ToC!$A$1)))

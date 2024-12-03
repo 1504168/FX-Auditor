@@ -1,0 +1,1 @@
+shortExitPrice ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HQ$122:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HQ$122:'D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HQ$1048576, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HQ:$HQ), 1)

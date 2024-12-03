@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="16" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#003246" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="14" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="14" ss:Color="#000000"
+    ss:Bold="1"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s39">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="_xlpm.a" ss:RefersTo="=#NAME?" ss:Hidden="1"/>
+  <NamedRange ss:Name="_xlpm.c" ss:RefersTo="=#NAME?" ss:Hidden="1"/>
+  <NamedRange ss:Name="DaysAndWeeks"
+   ss:RefersTo="={0,1,2,3,4,5,6} + {0;1;2;3;4;5}*7"/>
+ </Names>
+ <Worksheet ss:Name="RTAShtStats">
+  <Names>
+   <NamedRange ss:Name="DaysAndWeeks"
+    ss:RefersTo="={0,1,2,3,4,5,6} + {0;1;2;3;4;5}*7"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="47" ss:StyleID="s19"
+   ss:DefaultRowHeight="12.5">
+   <Column ss:StyleID="s19" ss:Width="68"/>
+   <Column ss:StyleID="s19" ss:Width="71"/>
+   <Column ss:StyleID="s19" ss:Width="123.5"/>
+   <Column ss:StyleID="s19" ss:Width="87.5"/>
+   <Column ss:StyleID="s19" ss:Width="80"/>
+   <Column ss:StyleID="s19" ss:Width="71.5"/>
+   <Column ss:StyleID="s19" ss:Width="65.5"/>
+   <Column ss:StyleID="s19" ss:Width="60.5"/>
+   <Row ss:Height="36" ss:StyleID="s24">
+    <Cell><Data ss:Type="String">All Sheet Statistics</Data></Cell>
+   </Row>
+   <Row ss:Height="18" ss:StyleID="s24">
+    <Cell><Data ss:Type="String">Date:</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2024-11-20T00:00:00.000</Data></Cell>
+   </Row>
+   <Row ss:Height="198" ss:StyleID="s24">
+    <Cell><Data ss:Type="String">Workbook:</Data></Cell>
+    <Cell><Data ss:Type="String">https://d.docs.live.net/6edd704b8f8c537b/Portfolio/File Speed Optimizer/upwork Naveed v3.xlsb</Data></Cell>
+   </Row>
+   <Row ss:Height="18" ss:StyleID="s24"/>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Full calc time</Data></Cell>
+    <Cell><Data ss:Type="Number">0.82072810002136976</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Dirty calc time</Data></Cell>
+    <Cell><Data ss:Type="Number">0.72627359998296015</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Worksheet</Data></Cell>
+    <Cell><Data ss:Type="String">Used range</Data></Cell>
+    <Cell><Data ss:Type="String">Conditional formatting</Data></Cell>
+    <Cell><Data ss:Type="String">Data validation</Data></Cell>
+    <Cell><Data ss:Type="String">Formula cells</Data></Cell>
+    <Cell><Data ss:Type="String">Empty cells</Data></Cell>
+    <Cell><Data ss:Type="String">Constants</Data></Cell>
+    <Cell><Data ss:Type="String">Calc time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">daily</Data></Cell>
+    <Cell><Data ss:Type="String">A1:CC17049</Data></Cell>
+    <Cell><Data ss:Type="Number">35926</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">568896</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">660017</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">152056</Data></Cell>
+    <Cell><Data ss:Type="Number">0.7088244000042323</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">Blotter1</Data></Cell>
+    <Cell><Data ss:Type="String">A1:CE37</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">770</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">833</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="Number">0.70460890000686049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">Trade List</Data></Cell>
+    <Cell><Data ss:Type="String">A1:FH10331</Data></Cell>
+    <Cell><Data ss:Type="Number">11331</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">44893</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">1648864</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">527</Data></Cell>
+    <Cell><Data ss:Type="Number">0.69069160000071861</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">formulas</Data></Cell>
+    <Cell><Data ss:Type="String">A1:T3278</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">699</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">59675</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">5186</Data></Cell>
+    <Cell><Data ss:Type="Number">0.64519519999157637</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min adj</Data></Cell>
+    <Cell><Data ss:Type="String">A1:HI1024</Data></Cell>
+    <Cell><Data ss:Type="Number">9217</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">63562</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">140233</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">7149</Data></Cell>
+    <Cell><Data ss:Type="Number">0.64286980000906624</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest</Data></Cell>
+    <Cell><Data ss:Type="String">A1:IC125000</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">257898</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">29365585</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">1517</Data></Cell>
+    <Cell><Data ss:Type="Number">0.60852099998737685</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">Xtrades</Data></Cell>
+    <Cell><Data ss:Type="String">A1:T531097</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">549009</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">10064623</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">8308</Data></Cell>
+    <Cell><Data ss:Type="Number">0.35856910000438802</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">kinfo</Data></Cell>
+    <Cell><Data ss:Type="String">A1:AC12290</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">36867</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">36867</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">233516</Data></Cell>
+    <Cell><Data ss:Type="Number">0.26622650001081638</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell><Data ss:Type="String" x:Ticked="1">Get Executions</Data></Cell>
+    <Cell><Data ss:Type="String">A1:BZ64</Data></Cell>
+    <Cell><Data ss:Type="Number">195</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">1392</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">3525</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="Number">0.22119979999843054</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">unique trades</Data></Cell>
+    <Cell><Data ss:Type="String">A1:BH3757</Data></Cell>
+    <Cell><Data ss:Type="Number">18780</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">12789</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">138758</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="Number">0.21072260002256371</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">halts</Data></Cell>
+    <Cell><Data ss:Type="String">A1:W50550</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">93</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">776375</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">386182</Data></Cell>
+    <Cell><Data ss:Type="Number">0.19914639997296035</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min</Data></Cell>
+    <Cell><Data ss:Type="String">A1:GB5533</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">52171</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">904558</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">480</Data></Cell>
+    <Cell><Data ss:Type="Number">0.19759419999900274</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell><Data ss:Type="String" x:Ticked="1">Annual Analysis</Data></Cell>
+    <Cell><Data ss:Type="String">D1:S26</Data></Cell>
+    <Cell><Data ss:Type="Number">92</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1924394000088796</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">halts2</Data></Cell>
+    <Cell><Data ss:Type="String">A1:W52599</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">52602</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">332040</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">404343</Data></Cell>
+    <Cell><Data ss:Type="Number">0.18186099999002181</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min</Data></Cell>
+    <Cell><Data ss:Type="String">A1:GA9991</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">60815</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">1647990</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">9647</Data></Cell>
+    <Cell><Data ss:Type="Number">0.17998099999385886</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">15min</Data></Cell>
+    <Cell><Data ss:Type="String">A1:BM124</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">571</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">6730</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">759</Data></Cell>
+    <Cell><Data ss:Type="Number">0.17486830000416376</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">Blotters</Data></Cell>
+    <Cell><Data ss:Type="String">A1:AV5403</Data></Cell>
+    <Cell><Data ss:Type="Number">32415</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">27009</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">28883</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">203452</Data></Cell>
+    <Cell><Data ss:Type="Number">0.15820760000497103</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell><Data ss:Type="String" x:Ticked="1">all_tickers_combined</Data></Cell>
+    <Cell><Data ss:Type="String">A1:K9096</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">18191</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">81864</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1555635999829974</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">links</Data></Cell>
+    <Cell><Data ss:Type="String">A1:J35</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">259</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="Number">0.15004919999046251</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">Results</Data></Cell>
+    <Cell><Data ss:Type="String">A1:I51</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">255</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">113</Data></Cell>
+    <Cell><Data ss:Type="Number">0.14533319999463856</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">vault</Data></Cell>
+    <Cell><Data ss:Type="String">A1:AD1</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">0.13531709997914732</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">Data</Data></Cell>
+    <Cell><Data ss:Type="String">A1:Q27</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">309</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="Number">0.12875490001169965</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">Sheet1</Data></Cell>
+    <Cell><Data ss:Type="String">A1:EF25091</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">3361948</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">50423</Data></Cell>
+    <Cell><Data ss:Type="Number">0.12700840001343749</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">SPY</Data></Cell>
+    <Cell><Data ss:Type="String">A1:I1439</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">1438</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">11513</Data></Cell>
+    <Cell><Data ss:Type="Number">0.12479419997544028</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">Splits (2)</Data></Cell>
+    <Cell><Data ss:Type="String">A1:O698</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">785</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">5490</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">0.12155839998740703</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">quick data</Data></Cell>
+    <Cell><Data ss:Type="String">A1:H1783</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">3544</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">10640</Data></Cell>
+    <Cell><Data ss:Type="Number">0.12024199997540563</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">test</Data></Cell>
+    <Cell><Data ss:Type="String">A1:R1669</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">25028</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">1673</Data></Cell>
+    <Cell><Data ss:Type="Number">0.11227489999146201</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">Values</Data></Cell>
+    <Cell><Data ss:Type="String">A2:F12</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1105037999805063</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">Fundamentals</Data></Cell>
+    <Cell><Data ss:Type="String">A1:F52</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">180</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">128</Data></Cell>
+    <Cell><Data ss:Type="Number">0.10968700001831166</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">trade ss</Data></Cell>
+    <Cell><Data ss:Type="String">A1:K1953</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">3892</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">11578</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">6013</Data></Cell>
+    <Cell><Data ss:Type="Number">9.353520002332516E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">D1GUS1</Data></Cell>
+    <Cell><Data ss:Type="String">A1:V15</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">277</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">8.6137000005692244E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">mytickers</Data></Cell>
+    <Cell><Data ss:Type="String">A1:C951</Data></Cell>
+    <Cell><Data ss:Type="Number">951</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">754</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">2048</Data></Cell>
+    <Cell><Data ss:Type="Number">7.9043000005185604E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">Optimizer</Data></Cell>
+    <Cell><Data ss:Type="String">B1:N28</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">316</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">7.4234500003512949E-2</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell><Data ss:Type="String" x:Ticked="1">Strategy Review</Data></Cell>
+    <Cell><Data ss:Type="String">A4:B34</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">6.9127599999774247E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">Sheet4</Data></Cell>
+    <Cell><Data ss:Type="String">A1</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2.4447300005704165E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">RRrecord</Data></Cell>
+    <Cell><Data ss:Type="String">A1:GK1305</Data></Cell>
+    <Cell><Data ss:Type="Number">2609</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">79805</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">172060</Data></Cell>
+    <Cell><Data ss:Type="Number">8.8558999996166676E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">Sheet2</Data></Cell>
+    <Cell><Data ss:Type="String">A1</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">8.3065999788232148E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">csv</Data></Cell>
+    <Cell><Data ss:Type="String">A1:L23</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s39"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">112</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">164</Data></Cell>
+    <Cell><Data ss:Type="Number">8.2081000145990402E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">store</Data></Cell>
+    <Cell><Data ss:Type="String">A2:X14</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">119</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">193</Data></Cell>
+    <Cell><Data ss:Type="Number">7.3575999995227903E-3</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

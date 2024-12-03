@@ -1,0 +1,1 @@
+absDrawdown ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HX$124:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HX$124:'D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HX$1048576, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HX:$HX), 1)

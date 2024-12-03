@@ -1,0 +1,1 @@
+market ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$F$142:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$F$142:'D:\Downloads\[File Optimization V4.xlsb]Backtest'!$F$1048576, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$F:$F), 1)

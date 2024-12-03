@@ -1,0 +1,1 @@
+year ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HZ$124:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HZ$124:$HZ$1048576, COUNT('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HZ:$HZ))

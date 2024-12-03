@@ -1,0 +1,1 @@
+high ='D:\Downloads\[File Optimization V4.xlsb]1min'!$CY$2:INDEX('D:\Downloads\[File Optimization V4.xlsb]1min'!$CY$2:$CY$1048576, COUNTIF('D:\Downloads\[File Optimization V4.xlsb]1min'!$CW$2:$CW$2000,">0")+1)

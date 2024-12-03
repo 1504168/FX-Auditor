@@ -1,0 +1,1 @@
+singlechart ='D:\Downloads\[File Optimization V4.xlsb]1min'!$CY$3:INDEX('D:\Downloads\[File Optimization V4.xlsb]1min'!$CY$3:$CY$1048576, 'D:\Downloads\[File Optimization V4.xlsb]1min'!$DI$1)

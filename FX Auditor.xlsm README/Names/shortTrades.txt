@@ -1,0 +1,1 @@
+shortTrades ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HR$142:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HR$142:'D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HR$1048576, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HR:$HR), 1)

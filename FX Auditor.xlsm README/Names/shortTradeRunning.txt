@@ -1,0 +1,1 @@
+shortTradeRunning ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HJ$321:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HJ$321:'D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HJ$1048576, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HJ:$HJ), 1)

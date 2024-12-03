@@ -1,0 +1,1 @@
+longTradeNo ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$FY$122:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$FY$122:'D:\Downloads\[File Optimization V4.xlsb]Backtest'!$FY$1048576, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$FY:$FY), 1)

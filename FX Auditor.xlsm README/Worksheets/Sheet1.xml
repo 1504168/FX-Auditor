@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s40">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="_xlpm.a" ss:RefersTo="=#NAME?" ss:Hidden="1"/>
+  <NamedRange ss:Name="_xlpm.c" ss:RefersTo="=#NAME?" ss:Hidden="1"/>
+  <NamedRange ss:Name="DaysAndWeeks"
+   ss:RefersTo="={0,1,2,3,4,5,6} + {0;1;2;3;4;5}*7"/>
+ </Names>
+ <Worksheet ss:Name="`S(h-$eet1">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="24"
+   ss:DefaultRowHeight="12.5">
+   <Column ss:Width="14.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="35"/>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;`&quot;</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s40"><Data ss:Type="String">&quot;`&quot;,&quot;~&quot;,&quot;!&quot;,&quot;@&quot;,&quot;#&quot;,&quot;$&quot;,&quot;%&quot;,&quot;^&quot;,&quot;&amp;&quot;,&quot;(&quot;,&quot;)&quot;,&quot;-&quot;,&quot;_&quot;,&quot;=&quot;,&quot;+&quot;,&quot;{&quot;,&quot;}&quot;,&quot;|&quot;,&quot;;&quot;,&quot;:&quot;,&quot;,&quot;,&quot;&lt;&quot;,&quot;.&quot;,&quot;&gt;&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;~&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;!&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;@&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;#&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;$&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;%&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;^&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;&amp;&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;(&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;)&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;-&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;_&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;=&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;+&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;{&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;}&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;|&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;;&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;:&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;,&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;&lt;&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;.&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&quot;&gt;&quot;</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

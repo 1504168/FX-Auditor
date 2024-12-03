@@ -1,0 +1,1 @@
+trades ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HT$122:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HT$122:$HT$1048576, COUNT('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HT:$HT))

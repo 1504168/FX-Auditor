@@ -1,0 +1,1 @@
+open ='D:\Downloads\[File Optimization V4.xlsb]1min'!$CX$2:INDEX('D:\Downloads\[File Optimization V4.xlsb]1min'!$CX$2:$CX$1048576, COUNTIF('D:\Downloads\[File Optimization V4.xlsb]1min'!$CW$2:$CW$2000,">0")+1)

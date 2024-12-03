@@ -1,0 +1,1 @@
+lastDate =INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$A$3:$A$1048576, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$A:$A))

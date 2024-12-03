@@ -1,0 +1,1 @@
+longExitPrice ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$GS$122:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$GS$122:'D:\Downloads\[File Optimization V4.xlsb]Backtest'!$GS$1048576, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$GS:$GS), 1)

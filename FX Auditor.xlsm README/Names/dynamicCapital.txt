@@ -1,0 +1,1 @@
+dynamicCapital =INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HW$124:$HW$1048576, 'D:\Downloads\[File Optimization V4.xlsb]Values'!$C$6 + 1):INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HW$124:$HW$1048576, 'D:\Downloads\[File Optimization V4.xlsb]Values'!$D$7)

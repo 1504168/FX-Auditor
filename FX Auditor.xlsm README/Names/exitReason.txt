@@ -1,0 +1,1 @@
+exitReason ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$IB$122:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$IB$122:'D:\Downloads\[File Optimization V4.xlsb]Backtest'!$IB$1048576, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$IB:$IB), 1)

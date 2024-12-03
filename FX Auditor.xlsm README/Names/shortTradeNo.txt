@@ -1,0 +1,1 @@
+shortTradeNo ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$GU$122:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$GU:$GU, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$GU:$GU))

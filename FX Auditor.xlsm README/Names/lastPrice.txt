@@ -1,0 +1,1 @@
+lastPrice =INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$F$3:$F$1048576, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$F:$F)-1)

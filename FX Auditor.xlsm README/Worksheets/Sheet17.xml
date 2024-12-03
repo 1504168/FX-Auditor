@@ -1,0 +1,1322 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#FF6600" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#00FFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#99FFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="_xlpm.a" ss:RefersTo="=#NAME?" ss:Hidden="1"/>
+  <NamedRange ss:Name="_xlpm.c" ss:RefersTo="=#NAME?" ss:Hidden="1"/>
+  <NamedRange ss:Name="DaysAndWeeks"
+   ss:RefersTo="={0,1,2,3,4,5,6} + {0;1;2;3;4;5}*7"/>
+ </Names>
+ <Worksheet ss:Name="Named Ranges">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="='Named Ranges'!R1C1:R101C7"
+    ss:Hidden="1"/>
+   <NamedRange ss:Name="DaysAndWeeks"
+    ss:RefersTo="={0,1,2,3,4,5,6} + {0;1;2;3;4;5}*7"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="198" ss:StyleID="s19"
+   ss:DefaultRowHeight="12.5">
+   <Column ss:StyleID="s19" ss:Width="117.5"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="278.5"/>
+   <Column ss:StyleID="s19" ss:Width="63.5"/>
+   <Column ss:StyleID="s19" ss:Width="101"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="85"/>
+   <Column ss:StyleID="s19" ss:Width="90"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="141.5"/>
+   <Column ss:StyleID="s19" ss:Width="492"/>
+   <Row>
+    <Cell><Data ss:Type="String">Name</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">RefersTo</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Scope</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">RefersToRange</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Number of Cells</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">TopCell</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Find Last Row Using</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Changed RefersTo</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">dates</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$A$141,0,0,COUNTA(Backtest!$A:$A)-20)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$A$141:$A$695</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">555</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$A$141</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$A:$A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String" x:Ticked="1">=Backtest!$A$141:INDEX(Backtest!$A$141:Backtest!$A$1048576, COUNTA(Backtest!$A:$A)-20, 1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">market</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$F$142,0,0,COUNTA(Backtest!$F:$F))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$F$142:$F$717</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">576</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$F$142</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$F:$F</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$F$142:INDEX(Backtest!$F$142:Backtest!$F$1048576, COUNTA(Backtest!$F:$F), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">longTradeNo</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$FY$122,0,0,COUNTA(Backtest!$FY:$FY))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$FY$122:$FY$695</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">574</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$FY$122</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$FY:$FY</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$FY$122:INDEX(Backtest!$FY$122:Backtest!$FY$1048576, COUNTA(Backtest!$FY:$FY), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">longTradeExit</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$FZ$122,0,0,COUNTA(Backtest!$FZ:$FZ))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$FZ$122:$FZ$695</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">574</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$FZ$122</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$FZ:$FZ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$FZ$122:INDEX(Backtest!$FZ$122:Backtest!$FZ$1048576, COUNTA(Backtest!$FZ:$FZ), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">longTradeEntry</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$GG$122,0,0,COUNTA(Backtest!$GG:$GG))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$GG$122:$GG$726</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">605</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$GG$122</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$GG:$GG</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$GG$122:INDEX(Backtest!$GG$122:Backtest!$GG$1048576, COUNTA(Backtest!$GG:$GG), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">longTradeRunning</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$GL$321,0,0,COUNTA(Backtest!$GL:$GL)-182)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$GL$321:$GL$714</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">394</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$GL$321</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$GL:$GL</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$GL$321:INDEX(Backtest!$GL$321:Backtest!$GL$1048576, COUNTA(Backtest!$GL:$GL), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">longExitPrice</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$GS$122,0,0,COUNTA(Backtest!$GS:$GS))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$GS$122:$GS$695</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">574</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$GS$122</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$GS:$GS</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$GS$122:INDEX(Backtest!$GS$122:Backtest!$GS$1048576, COUNTA(Backtest!$GS:$GS), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">longTrades</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$GT$122,0,0,COUNTA(Backtest!$GT:$GT))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$GT$122:$GT$695</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">574</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$GT$122</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$GT:$GT</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$GT$122:INDEX(Backtest!$GT$122:Backtest!$GT$1048576, COUNTA(Backtest!$GT:$GT), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">shortTradeExit</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$GV$122,0,0,COUNTA(Backtest!$GV:$GV))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$GV$122:$GV$696</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">575</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$GV$122</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$GV:$GV</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$GV$122:INDEX(Backtest!$GV$122:Backtest!$GV$1048576, COUNTA(Backtest!$GV:$GV), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">shortTradeEntry</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$HE$122,0,0,COUNTA(Backtest!$HE:$HE))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$HE$122:$HE$12111</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">11990</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HE$122</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HE:$HE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$HE$122:INDEX(Backtest!$HE$122:Backtest!$HE$1048576, COUNTA(Backtest!$HE:$HE), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">shortTradeRunning</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$HJ$321,0,0,COUNTA(Backtest!$HJ:$HJ)-182)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$HJ$321:$HJ$715</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">395</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HJ$321</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HJ:$HJ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$HJ$321:INDEX(Backtest!$HJ$321:Backtest!$HJ$1048576, COUNTA(Backtest!$HJ:$HJ), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">shortExitPrice</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$HQ$122,0,0,COUNTA(Backtest!$HQ:$HQ))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$HQ$122:$HQ$696</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">575</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HQ$122</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HQ:$HQ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$HQ$122:INDEX(Backtest!$HQ$122:Backtest!$HQ$1048576, COUNTA(Backtest!$HQ:$HQ), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">shortTrades</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$HR$142,0,0,COUNTA(Backtest!$HR:$HR))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$HR$142:$HR$716</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">575</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HR$142</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HR:$HR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$HR$142:INDEX(Backtest!$HR$142:Backtest!$HR$1048576, COUNTA(Backtest!$HR:$HR), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">absCapital</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$HW$122,0,0,COUNTA(Backtest!$HW:$HW)-2)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$HW$122:$HW$694</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">573</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HW$122</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HW:$HW</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$HW$122:INDEX(Backtest!$HW$122:Backtest!$HW$1048576, COUNTA(Backtest!$HW:$HW), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">absDrawdown</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$HX$124,0,0,COUNTA(Backtest!$HX:$HX))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$HX$124:$HX$696</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">573</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HX$124</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HX:$HX</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$HX$124:INDEX(Backtest!$HX$124:Backtest!$HX$1048576, COUNTA(Backtest!$HX:$HX), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">marketMaxDD</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$HY$124,0,0,COUNTA(Backtest!$HY:$HY))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$HY$124:$HY$696</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">573</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HY$124</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HY:$HY</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$HY$124:INDEX(Backtest!$HY$124:Backtest!$HY$1048576, COUNTA(Backtest!$HY:$HY), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">exitReason</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$IB$122,0,0,COUNTA(Backtest!$IB:$IB))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$IB$122:$IB$696</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">575</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$IB$122</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$IB:$IB</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String" x:Ticked="1">=Backtest!$IB$122:INDEX(Backtest!$IB$122:Backtest!$IB$1048576, COUNTA(Backtest!$IB:$IB), 1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">dynamicBuyAndHold</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$IA$124,Values!$C$6,0,Values!$D$7-Values!$C$6)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$IA$680:$IA$4076</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">3397</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$IA$124</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=INDEX(Backtest!$IA$124:$IA$1048576, Values!$C$6 + 1):INDEX(Backtest!$IA$124:$IA$1048576, Values!$D$7)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">dynamicCapital</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$HW$124,Values!$C$6,0,Values!$D$7-Values!$C$6)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$HW$680:$HW$4076</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">3397</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HW$124</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=INDEX(Backtest!$HW$124:$HW$1048576, Values!$C$6 + 1):INDEX(Backtest!$HW$124:$HW$1048576, Values!$D$7)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">dynamicDates</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$A$142,Values!$C$6,0,Values!$D$7-Values!$C$6)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$A$698:$A$4094</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">3397</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$A$142</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s33"><Data ss:Type="String" x:Ticked="1">=INDEX(Backtest!$A$142:$A$1048576, Values!$C$6 + 1):INDEX(Backtest!$A$142:$A$1048576, Values!$D$7)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">dynamicMarket</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$F$142,Values!$C$6,0,Values!$D$7-Values!$C$6)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$F$698:$F$4094</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">3397</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$F$142</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=INDEX(Backtest!$F$142:$F$1048576, Values!$C$6 + 1):INDEX(Backtest!$F$142:$F$1048576, Values!$D$7)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">1min'!chartrange2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET('1min'!$CY$3,0,0,'1min'!$DI$1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">1min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CY$3:$CY$492</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">490</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min'!$CY$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='1min'!$CY$3:INDEX('1min'!$CY$3:$CY$1048576, '1min'!$DI$1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">singlechart</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET('1min'!$CY$3,0,0,'1min'!$DI$1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CY$3:$CY$492</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">490</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min'!$CY$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='1min'!$CY$3:INDEX('1min'!$CY$3:$CY$1048576, '1min'!$DI$1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">5min'!chartrange2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET('5min'!$CY$3,0,0,'5min'!$DI$1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">5min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CY$3:$CY$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">487</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min'!$CY$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='5min'!$CY$3:INDEX('5min'!$CY$3:$CY$1048576, '5min'!$DI$1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">5min'!singlechart</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET('5min'!$CY$3,0,0,'5min'!$DI$1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">5min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CY$3:$CY$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">487</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min'!$CY$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='5min'!$CY$3:INDEX('5min'!$CY$3:$CY$1048576, '5min'!$DI$1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">regdata</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET('1min'!$C$2,'1min'!$BP$2,0,'1min'!$BQ$3,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$C$554:$C$942</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">389</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min'!$C$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=INDEX('1min'!$C$2:$C$1048576, '1min'!$BP$2 + 1):INDEX('1min'!$C$2:$C$1048576, '1min'!$BP$2 + '1min'!$BQ$3)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">dminus1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET('1min'!$C$2,0,0,'1min'!$BN$2-1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$C$2:$C$387</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">386</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min'!$C$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='1min'!$C$2:INDEX('1min'!$C$2:$C$1048576, '1min'!$BN$2)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">5min'!dminus1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET('5min'!$C$2,0,0,'5min'!$BN$2-1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">5min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$C$2:$C$182</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">181</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min'!$C$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='5min'!$C$2:INDEX('5min'!$C$2:$C$1048576, '5min'!$BN$2)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">5min'!regdata</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET('5min'!$C$2,'5min'!$BP$2,0,'5min'!$BQ$3,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">5min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$C$280:$C$409</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">130</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min'!$C$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=INDEX('5min'!$C$2:$C$1048576, '5min'!$BP$2 + 1):INDEX('5min'!$C$2:$C$1048576, '5min'!$BP$2 + '5min'!$BQ$3)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">pmdata</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET('1min'!$C$2,'1min'!$BO$2,0,'1min'!$BP$3,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$C$439:$C$553</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">115</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min'!$C$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=INDEX('1min'!$C$2:$C$1048576, '1min'!$BO$2 + 1):INDEX('1min'!$C$2:$C$1048576, '1min'!$BO$2 + '1min'!$BP$3)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">5min'!pmdata</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET('5min'!$C$2,'5min'!$BO$2,0,'5min'!$BP$3,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">5min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$C$226:$C$279</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">54</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min'!$C$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=INDEX('5min'!$C$2:$C$1048576, '5min'!$BO$2 + 1):INDEX('5min'!$C$2:$C$1048576, '5min'!$BO$2 + '5min'!$BP$3)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">dminus1ah</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET('1min'!$C$2,'1min'!$BN$2,0,'1min'!$BO$3,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$C$389:$C$438</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">50</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min'!$C$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=INDEX('1min'!$C$2:$C$1048576, '1min'!$BN$2 + 1):INDEX('1min'!$C$2:$C$1048576, '1min'!$BN$2 + '1min'!$BO$3)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">5min'!dminus1ah</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET('5min'!$C$2,'5min'!$BN$2,0,'5min'!$BO$3,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">5min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$C$184:$C$225</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">42</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min'!$C$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=INDEX('5min'!$C$2:$C$1048576, '5min'!$BN$2 + 1):INDEX('5min'!$C$2:$C$1048576, '5min'!$BN$2 + '5min'!$BO$3)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">5min'!close</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String" x:Ticked="1">=OFFSET('5min'!$DA$2,0,0,COUNTIF('5min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">5min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$DA$2:$DA$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">488</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min'!$DA$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='5min'!$DA$2:INDEX('5min'!$DA$2:$DA$1048576, COUNTIF('5min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">close</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String" x:Ticked="1">=OFFSET('1min'!$DA$2,0,0,COUNTIF('1min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$DA$2:$DA$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">488</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min'!$DA$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='1min'!$DA$2:INDEX('1min'!$DA$2:$DA$1048576, COUNTIF('1min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">5min'!high</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String" x:Ticked="1">=OFFSET('5min'!$CY$2,0,0,COUNTIF('5min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">5min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CY$2:$CY$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">488</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min'!$CY$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='5min'!$CY$2:INDEX('5min'!$CY$2:$CY$1048576, COUNTIF('5min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">high</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String" x:Ticked="1">=OFFSET('1min'!$CY$2,0,0,COUNTIF('1min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CY$2:$CY$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">488</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min'!$CY$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='1min'!$CY$2:INDEX('1min'!$CY$2:$CY$1048576, COUNTIF('1min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">5min'!low</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String" x:Ticked="1">=OFFSET('5min'!$CZ$2,0,0,COUNTIF('5min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">5min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CZ$2:$CZ$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">488</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min'!$CZ$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='5min'!$CZ$2:INDEX('5min'!$CZ$2:$CZ$1048576, COUNTIF('5min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">low</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String" x:Ticked="1">=OFFSET('1min'!$CZ$2,0,0,COUNTIF('1min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CZ$2:$CZ$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">488</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min'!$CZ$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='1min'!$CZ$2:INDEX('1min'!$CZ$2:$CZ$1048576, COUNTIF('1min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">5min'!open</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String" x:Ticked="1">=OFFSET('5min'!$CX$2,0,0,COUNTIF('5min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">5min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CX$2:$CX$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">488</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min'!$CX$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='5min'!$CX$2:INDEX('5min'!$CX$2:$CX$1048576, COUNTIF('5min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">open</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String" x:Ticked="1">=OFFSET('1min'!$CX$2,0,0,COUNTIF('1min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CX$2:$CX$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">488</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min'!$CX$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='1min'!$CX$2:INDEX('1min'!$CX$2:$CX$1048576, COUNTIF('1min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">5min'!time</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String" x:Ticked="1">=OFFSET('5min'!$DH$2,0,0,COUNTIF('5min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">5min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$DH$2:$DH$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">488</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min'!$DH$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='5min'!$DH$2:INDEX('5min'!$DH$2:$DH$1048576, COUNTIF('5min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">time</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String" x:Ticked="1">=OFFSET('1min'!$DH$2,0,0,COUNTIF('1min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$DH$2:$DH$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">488</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min'!$DH$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='1min'!$DH$2:INDEX('1min'!$DH$2:$DH$1048576, COUNTIF('1min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">5min'!volume</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String" x:Ticked="1">=OFFSET('5min'!$CW$2,0,0,COUNTIF('5min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">5min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CW$2:$CW$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">488</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min'!$CW$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='5min'!$CW$2:INDEX('5min'!$CW$2:$CW$1048576, COUNTIF('5min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">volume</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String" x:Ticked="1">=OFFSET('1min'!$CW$2,0,0,COUNTIF('1min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CW$2:$CW$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">488</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min'!$CW$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='1min'!$CW$2:INDEX('1min'!$CW$2:$CW$1048576, COUNTIF('1min'!$CW$2:$CW$2000,&quot;&gt;0&quot;)+1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">trades</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$HT$122,0,0,COUNT(Backtest!$HT:$HT))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$HT$122:$HT$694</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">573</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HT$122</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=Backtest!$HT$122:INDEX(Backtest!$HT$122:$HT$1048576, COUNT(Backtest!$HT:$HT))</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">year</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$HZ$124,0,0,COUNT(Backtest!$HZ:$HZ))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$HZ$124:$HZ$695</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">572</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$HZ$124</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=Backtest!$HZ$124:INDEX(Backtest!$HZ$124:$HZ$1048576, COUNT(Backtest!$HZ:$HZ))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">shortCummulativePercent</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">=OFFSET('Trade List'!$T$4,0,0,COUNT('Trade List'!$T:$T))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$T$4:$T$6</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">3</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Trade List'!$T$4</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='Trade List'!$T$4:INDEX('Trade List'!$T$4:$T$1048576, COUNT('Trade List'!$T:$T))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">longCummulativePercent</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">=OFFSET('Trade List'!$I$4,0,0,COUNT('Trade List'!$I:$I))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String" x:Ticked="1">Trade List'!$I$4</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='Trade List'!$I$4:INDEX('Trade List'!$I$4:$I$1048576, COUNT('Trade List'!$I:$I))</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">1min'!chartrange3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String" x:Ticked="1">=OFFSET('1min'!$CG$3,0,0,SUBTOTAL(3,'1min'!$CG:$CG)-1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">1min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CG$3:$CG$1153</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1151</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min'!$CG$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='1min'!$CG$3:INDEX('1min'!$CG$3:$CG$1048576, SUBTOTAL(3,'1min'!$CG:$CG)-1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">1min'!chartrange</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String" x:Ticked="1">=OFFSET('1min'!$CG$3,0,0,SUBTOTAL(3,'1min'!A:A)-1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">1min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CG$3:$CG$1149</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1147</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min'!$CG$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='1min'!$CG$3:INDEX('1min'!$CG$3:$CG$1048576, SUBTOTAL(3,'1min'!A:A)-1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">1min adj'!chartrange</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String" x:Ticked="1">=OFFSET('1min adj'!$DO$3,0,0,SUBTOTAL(3,'1min adj'!A:A)-1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">1min adj</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$DO$3:$DO$793</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">791</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min adj'!$DO$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='1min adj'!$DO$3:INDEX('1min adj'!$DO$3:$DO$1048576, SUBTOTAL(3,'1min adj'!A:A)-1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">1min adj'!chartrange2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String" x:Ticked="1">=OFFSET('1min adj'!$EG$3,0,0,SUBTOTAL(3,'1min adj'!AK:AK)-1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">1min adj</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$EG$3:$EG$793</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">791</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min adj'!$EG$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='1min adj'!$EG$3:INDEX('1min adj'!$EG$3:$EG$1048576, SUBTOTAL(3,'1min adj'!AK:AK)-1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">1min adj'!chartrange3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String" x:Ticked="1">=OFFSET('1min adj'!$DO$3,0,0,SUBTOTAL(3,'1min adj'!$DO:$DO)-1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">1min adj</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$DO$3:$DO$793</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">791</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1min adj'!$DO$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='1min adj'!$DO$3:INDEX('1min adj'!$DO$3:$DO$1048576, SUBTOTAL(3,'1min adj'!$DO:$DO)-1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">5min'!chartrange3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String" x:Ticked="1">=OFFSET('5min'!$CG$3,0,0,SUBTOTAL(3,'5min'!$CG:$CG)-1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">5min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CG$3:$CG$493</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">491</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min'!$CG$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='5min'!$CG$3:INDEX('5min'!$CG$3:$CG$1048576, SUBTOTAL(3,'5min'!$CG:$CG)-1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">5min'!chartrange</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String" x:Ticked="1">=OFFSET('5min'!$CG$3,0,0,SUBTOTAL(3,'5min'!A:A)-1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">5min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$CG$3:$CG$489</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">487</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5min'!$CG$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='5min'!$CG$3:INDEX('5min'!$CG$3:$CG$1048576, SUBTOTAL(3,'5min'!A:A)-1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">15min'!chartrange</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String" x:Ticked="1">=OFFSET('15min'!$AS$3,0,0,SUBTOTAL(3,'15min'!A:A)-1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">15min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$AS$3:$AS$70</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">68</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">15min'!$AS$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='15min'!$AS$3:INDEX('15min'!$AS$3:$AS$1048576, SUBTOTAL(3,'15min'!A:A)-1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">15min'!chartrange2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String" x:Ticked="1">=OFFSET('15min'!$BE$3,0,0,SUBTOTAL(3,'15min'!AE:AE)-1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">15min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$BE$3:$BE$16</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">14</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">15min'!$BE$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='15min'!$BE$3:INDEX('15min'!$BE$3:$BE$1048576, SUBTOTAL(3,'15min'!AE:AE)-1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s29"><Data ss:Type="String" x:Ticked="1">15min'!chartrange3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String" x:Ticked="1">=OFFSET('15min'!$AS$3,0,0,SUBTOTAL(3,'15min'!$AS:$AS)-1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">15min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String" x:Ticked="1">15min'!$AS$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">='15min'!$AS$3:INDEX('15min'!$AS$3:$AS$1048576, SUBTOTAL(3,'15min'!$AS:$AS)-1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">lastDate</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$A$3,COUNTA(Backtest!$A:$A)-1,0)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$A$577</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$A$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">Backtest!$A:$A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=INDEX(Backtest!$A$3:$A$1048576, COUNTA(Backtest!$A:$A))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">lastPrice</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">=OFFSET(Backtest!$F$3,COUNTA(Backtest!$F:$F)-2,0)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$F$577</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Backtest!$F$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">Backtest!$F:$F</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=INDEX(Backtest!$F$3:$F$1048576, COUNTA(Backtest!$F:$F)-1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">subtimeone</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">=OFFSET(test!$N$1,0,0,COUNTA(test!$N:$N),1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$N$1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">test!$N$1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">test!$N:$N</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=test!$N$1:INDEX(test!$N$1:$N$1048576, COUNTA(test!$N:$N))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">subtimetwo</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">=OFFSET(test!$O$1,0,0,COUNTA(test!$O:$O),1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$O$1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">test!$O$1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">test!$O:$O</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=test!$O$1:INDEX(test!$O$1:$O$1048576, COUNTA(test!$O:$O))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">subtimethree</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">=OFFSET(test!$P$1,0,0,COUNTA(test!$P:$P),1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$P$1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">test!$P$1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">test!$P:$P</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=test!$P$1:INDEX(test!$P$1:$P$1048576, COUNTA(test!$P:$P))</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Backtest</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">=Backtest!$H:$H</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$H:$H</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1048576</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s26"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String" x:Ticked="1">=Backtest!$H$1:INDEX(Backtest!$H$122:$H$1048576,COUNTA(Backtest!$H$122:$H$1048576),1)</Data></Cell>
+   </Row>
+   <Row ss:Height="25" ss:Hidden="1">
+    <Cell><Data ss:Type="String">dates2</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=Backtest!$A$122:INDEX(Backtest!$A:$A, COUNTA(Backtest!$A:$A))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$A$122:$A$575</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">454</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Height="25" ss:Hidden="1">
+    <Cell><Data ss:Type="String">datesTradeNo</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=Backtest!$A$122:INDEX(Backtest!$A:$A, COUNTA(Backtest!$A:$A))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$A$122:$A$575</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">454</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Height="25" ss:Hidden="1">
+    <Cell><Data ss:Type="String">shortTradeNo</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=Backtest!$GU$122:INDEX(Backtest!$GU:$GU, COUNTA(Backtest!$GU:$GU))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$GU$122:$GU$575</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">454</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">close_time</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=formulas!$J$16</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$J$16</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">CSVFileName</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=csv!$I$1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$I$1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">endcsv</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=csv!$L$1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$L$1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">fifteen_min</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=links!$A$7</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$A$7</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">finvizz</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=links!$A$4</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$A$4</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">intraday</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=links!$A$3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$A$3</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">one_min</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=links!$A$6</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$A$6</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">oneminadj</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=links!$A$1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$A$1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">poly</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=links!$A$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$A$2</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">split</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=links!$A$8</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$A$8</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">startcsv</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=csv!$K$1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$K$1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">tenam</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=formulas!$I$19</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$I$19</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">ticker1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">='Trade List'!$L$1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$L$1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">time1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=formulas!$J$15</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$J$15</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">time2</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=formulas!$K$15</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">$K$15</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String" x:Ticked="1">1min adj'!DaysAndWeeks</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">={0,1,2,3,4,5,6} + {0;1;2;3;4;5}*7</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">1min adj</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">DaysAndWeeks</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">={0,1,2,3,4,5,6} + {0;1;2;3;4;5}*7</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Height="25" ss:Hidden="1">
+    <Cell><Data ss:Type="String">RTAToC</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=MID(CELL(&quot;filename&quot;,ToC!$A$1),FIND(&quot;]&quot;,CELL(&quot;filename&quot;,ToC!$A$1))+1,LEN(CELL(&quot;filename&quot;,ToC!$A$1)))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Blotters!dates</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(#REF!$A$23,0,0,COUNTA(#REF!$A:$A)-20)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Blotters</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">quick data'!dates</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(#REF!$A$23,0,0,COUNTA(#REF!$A:$A)-20)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">quick data</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">trade ss'!dates</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(#REF!$A$23,0,0,COUNTA(#REF!$A:$A)-20)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">trade ss</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">unique trades'!dates</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(#REF!$A$23,0,0,COUNTA(#REF!$A:$A)-20)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">unique trades</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">eqt</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(#REF!$K$4,0,0,COUNTIF(#REF!$H:$H,&quot;&gt;0&quot;),1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">eqt_date</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(#REF!$H$4,0,0,COUNTIF(#REF!$H:$H,&quot;&gt;0&quot;)+1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Height="25" ss:Hidden="1">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">ftwo</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=#REF!$BL$2:INDEX(#REF!$BL:$BL, COUNT(#REF!$BK:$BK)+2)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">pnl</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(#REF!$K$5,0,0,COUNTIF(#REF!$H:$H,&quot;&gt;0&quot;),1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">pnl_date</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(#REF!$H$5,0,0,COUNTIF(#REF!$H:$H,&quot;&gt;0&quot;)+1,1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">pnlf</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(#REF!$B$4, 0, 0, SUMPRODUCT(&#45;-(#REF!$C$4:$C$999999&lt;&gt;0)), 1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Height="25" ss:Hidden="1">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">RRj</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=SCAN(0, #REF!L1:INDEX(#REF!L:L,COUNTA(#REF!L:L)), LAMBDA(total,current, total + current))</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">timechart</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=SEQUENCE(#REF!F1048573, 1, 1, 1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">tradecount</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=OFFSET(#REF!$P$4,0,0,COUNTIF(#REF!$H:$H,&quot;&gt;0&quot;),1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">WeekStart</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">=#REF!$E$2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Workbook</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

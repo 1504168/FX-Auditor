@@ -1,0 +1,1 @@
+absCapital ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HW$122:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HW$122:'D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HW$1048576, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HW:$HW), 1)

@@ -1,0 +1,1 @@
+shortCummulativePercent ='D:\Downloads\[File Optimization V4.xlsb]Trade List'!$T$4:INDEX('D:\Downloads\[File Optimization V4.xlsb]Trade List'!$T$4:$T$1048576, COUNT('D:\Downloads\[File Optimization V4.xlsb]Trade List'!$T:$T))

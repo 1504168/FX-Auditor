@@ -1,0 +1,1 @@
+dates2 ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$A$122:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$A:$A, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$A:$A))

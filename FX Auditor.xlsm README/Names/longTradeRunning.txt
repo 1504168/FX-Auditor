@@ -1,0 +1,1 @@
+longTradeRunning ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$GL$321:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$GL$321:'D:\Downloads\[File Optimization V4.xlsb]Backtest'!$GL$1048576, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$GL:$GL), 1)

@@ -1,0 +1,1 @@
+Backtest ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$H$1:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$H$122:$H$1048576,COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$H$122:$H$1048576),1)

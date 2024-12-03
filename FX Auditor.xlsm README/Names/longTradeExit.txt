@@ -1,0 +1,1 @@
+longTradeExit ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$FZ$122:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$FZ$122:'D:\Downloads\[File Optimization V4.xlsb]Backtest'!$FZ$1048576, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$FZ:$FZ), 1)

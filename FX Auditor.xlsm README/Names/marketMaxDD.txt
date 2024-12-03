@@ -1,0 +1,1 @@
+marketMaxDD ='D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HY$124:INDEX('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HY$124:'D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HY$1048576, COUNTA('D:\Downloads\[File Optimization V4.xlsb]Backtest'!$HY:$HY), 1)
